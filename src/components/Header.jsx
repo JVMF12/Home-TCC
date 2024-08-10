@@ -3,28 +3,32 @@ import Logo from '/LOGO.svg'
 
 export default function Header() {
   return (
-    <header className='flex'>
-        <button className=''>
-            <img src={Logo} alt="" />
+    <header className='w-full bg-fundoHeader px-4 py-2 flex items-center justify-between overflow-x-auto'>
+
+        <button className='flex-shrink-0'>
+           <img src={Logo} alt="" className='w-12 h-8 mr-3'/>
         </button>
 
-        <ul className='flex pl-5'>
-            <li>
-                <a href="">Home</a>
-            </li>
-            <li>
-                <a href="">Como Usar</a>
-            </li>
-            <li>
-                <a href="">Materiais</a>
-            </li>
-            <li>
-                <a href="">Referências</a>
-            </li>
-            <li>
-                <a href="">Sobre nós</a>
-            </li>
-        </ul>
+        <nav className='flex-grow'>
+            <ul className='flex space-x-4 text-xs uppercase text-naoSelecionado font-bold'>
+                <li className='flex text-botaoSelecionado underline decoration-botaoSelecionado decoration-2'>
+                    <a href="">Home</a>
+                </li>
+                <li className= 'whitespace-nowrap'>
+                    <a href="">Como Usar</a>
+                </li>
+                <li>
+                    <a href="">Materiais</a>
+                </li>
+                <li>
+                    <a href="">Referências</a>
+                </li>
+                <li className='whitespace-nowrap'>
+                    <a href="">Sobre nós</a>
+                </li>
+            </ul>
+        </nav>
+        
     </header>
   )
 }
