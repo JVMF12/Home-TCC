@@ -14,11 +14,17 @@ export default {
       },
       fontFamily: {
         cormorant: ['Cormorant Garamond', 'serif'],
+        openSans: ['Open Sans', 'sans-serif']
       },
       letterSpacing: {
          ultraWidest: '0.25em',
       },
-
+      borderRadius: {
+        custom: '2.188rem',
+      },
+      margin: {
+        custom: '45rem',
+      },
     },
   },
   plugins: [],
