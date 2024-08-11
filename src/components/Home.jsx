@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
 
                 <div className='md:flex-1 md:h-[275px] border border-fundoHeader bg-fundoHeader rounded-custom p-5 md:flex md:items-center md:justify-center'>
-                    <p className='text-xs md:text-base md:text-left'>
+                    <p className='text-xs md:text-base md:text-center'>
                         Seja para controlar calorias, analisar nutrientes ou simplesmente manter o equilíbrio, essa ferramenta é a melhor aliada para seu bem-estar diário.
                     </p>
                 </div>
